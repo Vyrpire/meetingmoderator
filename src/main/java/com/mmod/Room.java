@@ -8,12 +8,23 @@ import java.util.Map;
  */
 public class Room {
     // Room DB
-    int room[];
+    User creator;
+    User room[];
 
     //Creates Array on creation
-    public Room(int tables) {
-        int room[] = new int[tables];
+    public Room(int chair, User creator) {
+        User room[] = new User[chair];
+        this.creator = creator;
     }
+
+    // Method for ANY user to take a seat at the specific seat
+    public void takeSeat(int specificchair, User user){
+        if(room[specificchair] != null){
+            room[specificchair] = user;
+        }
+    }
+
+
 
 
 
