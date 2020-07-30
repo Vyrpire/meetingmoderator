@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T11:32:50.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="oaWwCopt0h9_nGWJ03jg" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T11:37:42.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="HtobMrOrv4DdzanJzmPu" version="13.5.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3102" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2530" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="Import/Load" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-3" vertex="1">
           <mxGeometry x="40" width="360" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3-C-TOEogMpMSnslZLVv-24" value="ODER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
+          <mxGeometry x="290" y="225" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
           <mxGeometry x="40" y="210.5" width="200" height="100" as="geometry" />
@@ -28,9 +31,6 @@
         <mxCell id="3-C-TOEogMpMSnslZLVv-12" value="&lt;h1&gt;Importer&lt;/h1&gt;&lt;p&gt;importiere fremdes Datenmodell&amp;nbsp;&lt;span&gt;und übergebe es dem Interpreter&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
           <mxGeometry x="50" y="210" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="3-C-TOEogMpMSnslZLVv-24" value="ODER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
-          <mxGeometry x="290" y="180" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-14" value="&lt;h1&gt;Loader&lt;/h1&gt;&lt;p&gt;lade einen vorherigen State&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
           <mxGeometry x="50" y="70" width="190" height="90" as="geometry" />
         </mxCell>
@@ -38,28 +38,28 @@
           <mxGeometry x="400" width="480" height="340" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
-          <mxGeometry x="12" y="198.5" width="200" height="100" as="geometry" />
+          <mxGeometry x="24" y="198.5" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-8" source="3-C-TOEogMpMSnslZLVv-20" target="3-C-TOEogMpMSnslZLVv-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-20" value="&lt;h1&gt;Visualizer&lt;/h1&gt;&lt;p&gt;Darstellung des übergebenen oder geladenen Datenmodells&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
-          <mxGeometry x="22" y="198" width="190" height="90" as="geometry" />
+          <mxGeometry x="34" y="198" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
-          <mxGeometry x="90" y="68.5" width="200" height="109.5" as="geometry" />
+          <mxGeometry x="102" y="68.5" width="200" height="109.5" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-8" source="3-C-TOEogMpMSnslZLVv-30" target="3-C-TOEogMpMSnslZLVv-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-30" value="&lt;h1&gt;Connector&lt;/h1&gt;&lt;p&gt;im Visualizer. Stellt dem Nutzer die Möglichkeit die verschiedenen Klassen und Variablen zu verbinden&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
-          <mxGeometry x="100" y="68" width="190" height="110" as="geometry" />
+          <mxGeometry x="112" y="68" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
-          <mxGeometry x="230" y="189.5" width="200" height="100" as="geometry" />
+          <mxGeometry x="242" y="189.5" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-33" value="&lt;h1&gt;State&lt;/h1&gt;&lt;p&gt;Mapping Repräsentation als Datenmodell&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
-          <mxGeometry x="240" y="189" width="190" height="99" as="geometry" />
+          <mxGeometry x="252" y="189" width="190" height="99" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-11" value="Export" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-3" vertex="1">
           <mxGeometry x="880" width="270" height="340" as="geometry" />
@@ -79,13 +79,18 @@
         <mxCell id="3-C-TOEogMpMSnslZLVv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-3" source="3-C-TOEogMpMSnslZLVv-14" target="3-C-TOEogMpMSnslZLVv-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="370" y="165" />
+              <mxPoint x="370" y="115" />
               <mxPoint x="370" y="249" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-3" source="3-C-TOEogMpMSnslZLVv-33" target="3-C-TOEogMpMSnslZLVv-37">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="214" />
+              <mxPoint x="870" y="114" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-3" source="3-C-TOEogMpMSnslZLVv-33" target="3-C-TOEogMpMSnslZLVv-39">
           <mxGeometry relative="1" as="geometry" />
@@ -134,6 +139,18 @@
         </mxCell>
         <mxCell id="3-C-TOEogMpMSnslZLVv-48" value="Nutzer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-620" y="276" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-C-TOEogMpMSnslZLVv-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="120" as="sourcePoint" />
+            <mxPoint x="100" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-C-TOEogMpMSnslZLVv-52" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="370" as="sourcePoint" />
+            <mxPoint x="680" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
